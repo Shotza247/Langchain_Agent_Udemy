@@ -9,7 +9,7 @@ A foundational, step-by-step roadmap and template designed for developers starti
 This repository serves as a progression guide through the essential milestones of building modern LLM applications:
 
 ```mermaid
-graph TD
+graph LR
     L1["1. Direct LLM Calls<br/>(ChatOpenAI, API Keys)"] --> L2["2. Prompt Engineering<br/>(PromptTemplate, Placeholders)"]
     L2 --> L3["3. Chains & LCEL<br/>(Prompt | Model | OutputParser)"]
     L3 --> L4["4. Structured Outputs<br/>(Pydantic, JSON Parsing)"]
